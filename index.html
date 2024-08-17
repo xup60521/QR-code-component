@@ -9,12 +9,17 @@
     <link rel="stylesheet" href="./src/style.css">
 </head>
 
-<body>
-    <main
-        class="w-full min-h-screen bg-gradient-to-r from-fuchsia-500 to-cyan-500 flex items-center justify-center">
-        <h1 class="font-mono font-bold text-3xl text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
-            Vite + Typescript + TailwindCSS + GitHub Pages
-        </h1>
+<body class="bg-c_Slate_300">
+    <main class="w-full min-h-screen flex items-center justify-center px-6 py-10">
+        <div class="rounded-2xl p-4 bg-white flex flex-col md:w-[17.5rem]">
+            <div class="aspect-square rounded-lg bg-[#4c83f6] flex justify-center items-center overflow-hidden">
+                <img src="/image-qr-code.png" alt="qrcode">
+            </div>
+            <div class="flex flex-col w-full pt-6 pb-4 gap-4 px-2">
+                <h1 class="font-outfit text-center md:text-xl text-2xl font-bold text-c_Slate_900">Improve your front-end skills by building projects</h1>
+                <p class="font-outfit text-center text-c_Slate_500 md:text-sm">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+            </div>
+        </div>
     </main>
     <script type="module" src="/src/main.ts"></script>
 </body>
